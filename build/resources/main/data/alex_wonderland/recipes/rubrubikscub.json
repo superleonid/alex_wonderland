@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "rubrikscube",
+  "category": "equipment",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:light_blue_concrete_powder"
+    },
+    "b": {
+      "item": "minecraft:blue_concrete_powder"
+    },
+    "c": {
+      "item": "minecraft:purple_concrete_powder"
+    },
+    "d": {
+      "item": "minecraft:brown_concrete_powder"
+    },
+    "e": {
+      "tag": "minecraft:logs"
+    },
+    "f": {
+      "item": "minecraft:red_concrete_powder"
+    },
+    "g": {
+      "item": "minecraft:cyan_concrete_powder"
+    },
+    "h": {
+      "item": "minecraft:green_concrete_powder"
+    },
+    "i": {
+      "item": "minecraft:light_gray_concrete_powder"
+    }
+  },
+  "result": {
+    "id": "alex_wonderland:rubrubikscube",
+    "count": 64
+  }
+}

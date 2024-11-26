@@ -1,0 +1,8 @@
+JVM Args:          
+Run Args:          "--client", "/home/user/MCreatorWorkspaces/alex_wonderland/build/neoForm/neoFormJoined1.20.6-20240429.153634/steps/stripClient/output.jar", "--server", "/home/user/MCreatorWorkspaces/alex_wonderland/build/neoForm/neoFormJoined1.20.6-20240429.153634/steps/stripServer/output.jar", "--ann", "1.20.6", "--output", "/home/user/MCreatorWorkspaces/alex_wonderland/build/neoForm/neoFormJoined1.20.6-20240429.153634/steps/merge/output.jar", "--inject", "false"
+JVM:               /home/user/MCreator20242/jdk/bin/java
+Classpath:         /home/user/.mcreator/gradle/caches/modules-2/files-2.1/net.neoforged/mergetool/2.0.3/85c096b0155715275f84922d41462484c9a0285c/mergetool-2.0.3-fatjar.jar
+Working Dir:       /home/user/MCreatorWorkspaces/alex_wonderland/build/neoForm/neoFormJoined1.20.6-20240429.153634/steps/merge
+Main Class:        net.neoforged.mergetool.ConsoleMerger
+Program log file:  /home/user/MCreatorWorkspaces/alex_wonderland/build/neoForm/neoFormJoined1.20.6-20240429.153634/steps/merge/log.log
+Output file:       /home/user/MCreatorWorkspaces/alex_wonderland/build/neoForm/neoFormJoined1.20.6-20240429.153634/steps/merge/output.jar

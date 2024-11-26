@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "alex_wonderland:block/take_it_easy_pillow"
+    },
+    "type=top": {
+      "model": "alex_wonderland:block/take_it_easy_pillow_top"
+    },
+    "type=double": {
+      "model": "alex_wonderland:block/take_it_easy_pillow_full"
+    }
+  }
+}

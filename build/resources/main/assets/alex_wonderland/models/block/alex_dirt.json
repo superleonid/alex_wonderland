@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alex_wonderland:block/alexgrassbottom",
+    "up": "alex_wonderland:block/alexgrassbottom",
+    "north": "alex_wonderland:block/alexgrassbottom",
+    "east": "alex_wonderland:block/alexgrassbottom",
+    "south": "alex_wonderland:block/alexgrassbottom",
+    "west": "alex_wonderland:block/alexgrassbottom",
+    "particle": "alex_wonderland:block/alexgrassbottom"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "painting",
+  "definition": {
+    "texture": "leos_creation.png",
+    "width": 192,
+    "height": 192,
+    "title": "Leo's Creation",
+    "author": "Leo"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 64,
+    "group": "rubrikscube",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CONCRETE_POWDER#3"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER#11"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER#10"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER#12"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER#14"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER#9"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER#13"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER#8"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Rubrubikscube"
+    },
+    "name": "rubrubikscub",
+    "namespace": "mod"
+  }
+}

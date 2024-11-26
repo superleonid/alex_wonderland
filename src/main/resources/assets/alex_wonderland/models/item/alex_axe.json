@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "alex_wonderland:item/alex_axe"
+  }
+}

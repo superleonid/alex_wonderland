@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alex_wonderland:block/rubikscube",
+    "up": "alex_wonderland:block/rubikscube",
+    "north": "alex_wonderland:block/rubikscube",
+    "east": "alex_wonderland:block/rubikscube",
+    "south": "alex_wonderland:block/rubikscube",
+    "west": "alex_wonderland:block/rubikscube",
+    "particle": "alex_wonderland:block/rubikscube"
+  },
+  "render_type": "solid"
+}

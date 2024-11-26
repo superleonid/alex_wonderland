@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "alex_wonderland:block/alexgrassbottom",
+    "top": "alex_wonderland:block/alexgrasstop",
+    "side": "alex_wonderland:block/alexgrassside",
+    "overlay": "alex_wonderland:block/alexgrassside",
+    "particle": "alex_wonderland:block/alexgrassbottom"
+  },
+  "render_type": "cutout_mipped"
+}

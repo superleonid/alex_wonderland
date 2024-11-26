@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "aaaalex_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "alex_wonderland:gameplay/alex_loot_table"
+    ],
+    "recipes": [
+      "alex_wonderland:rubrubikscub"
+    ]
+  },
+  "parent": "minecraft:story/cure_zombie_villager"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "alex_wonderland:block/alexleaves",
+    "particle": "alex_wonderland:block/alexleaves"
+  }
+}

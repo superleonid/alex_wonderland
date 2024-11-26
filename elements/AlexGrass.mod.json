@@ -1,0 +1,137 @@
+{
+  "_fv": 66,
+  "_type": "block",
+  "definition": {
+    "texture": "alexgrassbottom",
+    "textureTop": "alexgrasstop",
+    "textureLeft": "alexgrassside",
+    "textureFront": "alexgrassside",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 14,
+    "customModelName": "Grass block",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": true,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "Grass",
+    "isItemTinted": false,
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Alex Grass",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": true,
+    "isWaterloggable": false,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:AlexTab"
+      }
+    ],
+    "destroyTool": "shovel",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 1,
+    "material": {
+      "value": "GRASS"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": true,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": "CUSTOM:AlexGrass"
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": true,
+    "isCustomSoundType": true,
+    "soundOnStep": {
+      "value": "WET_GRASS"
+    },
+    "breakSound": {
+      "value": "block.amethyst_block.chime"
+    },
+    "fallSound": {
+      "value": "block.amethyst_block.step"
+    },
+    "hitSound": {
+      "value": "block.amethyst_block.break"
+    },
+    "placeSound": {
+      "value": "block.amethyst_block.chime"
+    },
+    "stepSound": {
+      "value": "block.amethyst_block.place"
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "vanillaToolTier": "STONE",
+    "isBonemealable": false,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 19,
+    "frequencyOnChunk": 25,
+    "minGenerateHeight": 102,
+    "maxGenerateHeight": 238
+  }
+}

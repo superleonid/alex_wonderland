@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:dirt"
+    },
+    "b": {
+      "item": "minecraft:warped_hyphae"
+    }
+  },
+  "result": {
+    "id": "alex_wonderland:haujhsdljckschsiksdvc_fhdfghdusksganekjd",
+    "count": 64
+  }
+}

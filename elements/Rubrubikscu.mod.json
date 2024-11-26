@@ -1,0 +1,33 @@
+{
+  "_fv": 66,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Alexvillager"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Blocks.BUBBLE_COLUMN"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "Blocks.AMETHYST_CLUSTER"
+            },
+            "countPrice2": 64,
+            "offer": {
+              "value": "CUSTOM:Rubrubikscube"
+            },
+            "countOffer": 64,
+            "level": 5,
+            "maxTrades": 222,
+            "xp": 444,
+            "priceMultiplier": 0.01
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Alexvillager",
+    "pointOfInterest": {
+      "value": "Blocks.GRASS"
+    },
+    "actionSound": {
+      "value": "block.amethyst_block.chime"
+    },
+    "hat": "Full",
+    "professionTextureFile": "lavapet.png",
+    "zombifiedProfessionTextureFile": "phantom.png"
+  }
+}

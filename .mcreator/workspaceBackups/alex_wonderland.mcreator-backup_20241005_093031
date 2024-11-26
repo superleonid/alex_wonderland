@@ -1,0 +1,651 @@
+{
+  "mod_elements": [
+    {
+      "name": "AlexGrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alex_wonderland/models/block/alex_grass.json",
+          "src/main/resources/data/alex_wonderland/loot_tables/blocks/alex_grass.json",
+          "src/main/java/net/mcreator/alexwonderland/block/AlexGrassBlock.java",
+          "src/main/resources/assets/alex_wonderland/models/item/alex_grass.json",
+          "src/main/resources/assets/alex_wonderland/blockstates/alex_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "AlexDirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alex_wonderland/blockstates/alex_dirt.json",
+          "src/main/java/net/mcreator/alexwonderland/block/AlexDirtBlock.java",
+          "src/main/resources/assets/alex_wonderland/models/block/alex_dirt.json",
+          "src/main/resources/data/alex_wonderland/loot_tables/blocks/alex_dirt.json",
+          "src/main/resources/assets/alex_wonderland/models/item/alex_dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "AlexLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alex_wonderland/blockstates/alex_leaves.json",
+          "src/main/java/net/mcreator/alexwonderland/block/AlexLeavesBlock.java",
+          "src/main/resources/assets/alex_wonderland/models/item/alex_leaves.json",
+          "src/main/resources/assets/alex_wonderland/models/block/alex_leaves.json",
+          "src/main/resources/data/alex_wonderland/loot_tables/blocks/alex_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "LavaPet",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_pet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alex_wonderland/neoforge/biome_modifier/lava_pet_biome_modifier.json",
+          "src/main/java/net/mcreator/alexwonderland/entity/LavaPetEntity.java",
+          "src/main/java/net/mcreator/alexwonderland/entity/LavaPetEntityProjectile.java",
+          "src/main/java/net/mcreator/alexwonderland/client/renderer/LavaPetRenderer.java",
+          "src/main/resources/assets/alex_wonderland/models/item/lava_pet_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "AlexLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alex_wonderland/loot_tables/gameplay/alex_loot_table.json"
+        ]
+      }
+    },
+    {
+      "name": "AlexTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AlexPhantom",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_phantom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alexwonderland/entity/AlexPhantomEntity.java",
+          "src/main/java/net/mcreator/alexwonderland/client/renderer/AlexPhantomRenderer.java",
+          "src/main/resources/assets/alex_wonderland/models/item/alex_phantom_spawn_egg.json",
+          "src/main/resources/data/alex_wonderland/neoforge/biome_modifier/alex_phantom_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "AlexLava",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_lava",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alexwonderland/item/AlexLavaItem.java",
+          "src/main/java/net/mcreator/alexwonderland/fluid/types/AlexLavaFluidType.java",
+          "src/main/java/net/mcreator/alexwonderland/fluid/AlexLavaFluid.java",
+          "src/main/java/net/mcreator/alexwonderland/block/AlexLavaBlock.java",
+          "src/main/resources/assets/alex_wonderland/blockstates/alex_lava.json",
+          "src/main/resources/assets/alex_wonderland/models/item/alex_lava_bucket.json",
+          "src/main/resources/assets/alex_wonderland/models/block/alex_lava.json"
+        ]
+      }
+    },
+    {
+      "name": "AlexPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alexwonderland/item/AlexPickaxeItem.java",
+          "src/main/resources/assets/alex_wonderland/models/item/alex_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "AlexAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alex_wonderland/models/item/alex_axe.json",
+          "src/main/java/net/mcreator/alexwonderland/item/AlexAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AlexSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alexwonderland/item/AlexSwordItem.java",
+          "src/main/resources/assets/alex_wonderland/models/item/alex_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "AlexShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alexwonderland/item/AlexShovelItem.java",
+          "src/main/resources/assets/alex_wonderland/models/item/alex_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "AlexHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alex_wonderland/models/item/alex_hoe.json",
+          "src/main/java/net/mcreator/alexwonderland/item/AlexHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AlexPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alex_wonderland/recipes/alex_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AlexAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alex_wonderland/recipes/alex_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AlexSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alex_wonderland/recipes/alex_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AlexShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alex_wonderland/recipes/alex_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AlexHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alex_wonderland/recipes/alex_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeosCreation",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leos_creation",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Rubrubikscube",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubrubikscube",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alex_wonderland/loot_tables/blocks/rubrubikscube.json",
+          "src/main/resources/assets/alex_wonderland/blockstates/rubrubikscube.json",
+          "src/main/resources/assets/alex_wonderland/models/block/rubrubikscube.json",
+          "src/main/java/net/mcreator/alexwonderland/block/RubrubikscubeBlock.java",
+          "src/main/resources/assets/alex_wonderland/models/item/rubrubikscube.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubrubikscub",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubrubikscub",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alex_wonderland/recipes/rubrubikscub.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubrubikscu",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubrubikscu",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "A",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alexwonderland/potion/AMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "APotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alexwonderland/procedures/AOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aaaalex",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aaaalex",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alex_wonderland/advancements/aaaalex.json"
+        ]
+      }
+    },
+    {
+      "name": "TakeItEasyPillow",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "take_it_easy_pillow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alexwonderland/block/TakeItEasyPillowBlock.java",
+          "src/main/resources/assets/alex_wonderland/models/block/take_it_easy_pillow_top.json",
+          "src/main/resources/assets/alex_wonderland/blockstates/take_it_easy_pillow.json",
+          "src/main/resources/assets/alex_wonderland/models/block/take_it_easy_pillow_full.json",
+          "src/main/resources/data/alex_wonderland/loot_tables/blocks/take_it_easy_pillow.json",
+          "src/main/resources/assets/alex_wonderland/models/item/take_it_easy_pillow.json",
+          "src/main/resources/assets/alex_wonderland/models/block/take_it_easy_pillow.json"
+        ]
+      }
+    },
+    {
+      "name": "TakeitEasyPillo",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "takeit_easy_pillo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alex_wonderland/recipes/takeit_easy_pillo.json"
+        ]
+      }
+    },
+    {
+      "name": "Bed",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alexwonderland/block/BedBlock.java",
+          "src/main/resources/data/alex_wonderland/loot_tables/blocks/bed.json",
+          "src/main/resources/assets/alex_wonderland/models/block/bed.json",
+          "src/main/resources/assets/alex_wonderland/blockstates/bed.json",
+          "src/main/resources/assets/alex_wonderland/models/item/bed.json"
+        ]
+      }
+    },
+    {
+      "name": "Bedrock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alex_wonderland/recipes/bedrock.json"
+        ]
+      }
+    },
+    {
+      "name": "Alexvillager",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alexvillager",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alex_wonderland/textures/entity/villager/profession/alexvillager.png.mcmeta"
+        ]
+      }
+    },
+    {
+      "name": "P",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alexwonderland/item/PItem.java",
+          "src/main/resources/assets/alex_wonderland/models/item/p.json"
+        ]
+      }
+    },
+    {
+      "name": "Pa",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alex_wonderland/recipes/pa.json"
+        ]
+      }
+    },
+    {
+      "name": "LeoAndMamastab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leo_and_mamastab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CottonCandy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cotton_candy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alexwonderland/item/CottonCandyItem.java",
+          "src/main/resources/assets/alex_wonderland/models/item/cotton_candy.json"
+        ]
+      }
+    },
+    {
+      "name": "COT",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alex_wonderland/recipes/cot.json"
+        ]
+      }
+    },
+    {
+      "name": "Leo",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alexwonderland/command/LeoCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Hdhd",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hdhd",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alex_wonderland/models/item/hdhd.json",
+          "src/main/java/net/mcreator/alexwonderland/block/HdhdBlock.java",
+          "src/main/resources/assets/alex_wonderland/blockstates/hdhd.json",
+          "src/main/resources/data/alex_wonderland/loot_tables/blocks/hdhd.json",
+          "src/main/resources/assets/alex_wonderland/models/block/hdhd.json"
+        ]
+      }
+    },
+    {
+      "name": "Kddjfd",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kddjfd",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Tlglglgsgeyphpyarskh6656677899999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998888888888888888888888888888888888888888888888888888889999999999999999999999999999999999999999999999999999",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tlglglgsgeyphpyarskh_6656677899999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998888888888888888888888888888888888888888888888888888889999999999999999999999999999999999999999999999999999",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alexwonderland/item/Tlglglgsgeyphpyarskh6656677899999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998888888888888888888888888888888888888888888888888888889999999999999999999999999999999999999999999999999999Item.java",
+          "src/main/resources/assets/alex_wonderland/models/item/tlglglgsgeyphpyarskh_6656677899999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998888888888888888888888888888888888888888888888888888889999999999999999999999999999999999999999999999999999.json"
+        ]
+      }
+    },
+    {
+      "name": "HaujhsdljckschsiksdvcFHDFGHDUSKSGANEKJD",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haujhsdljckschsiksdvc_fhdfghdusksganekjd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alexwonderland/item/HaujhsdljckschsiksdvcFHDFGHDUSKSGANEKJDItem.java",
+          "src/main/resources/assets/alex_wonderland/models/item/haujhsdljckschsiksdvc_fhdfghdusksganekjd.json"
+        ]
+      }
+    },
+    {
+      "name": "PP",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alex_wonderland/recipes/pp.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:AlexLeaves"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Hdhd",
+      "~CUSTOM:AlexLava",
+      "~CUSTOM:AlexGrass"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:TakeItEasyPillow"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:AlexLeaves",
+      "~CUSTOM:AlexDirt",
+      "~CUSTOM:AlexGrass"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:AlexPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:AlexAxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:AlexSword"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:AlexHoe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:AlexShovel"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.alex_wonderland.alex_leaves": "Alex Leaves",
+      "block.alex_wonderland.bed": "Bed",
+      "item.alex_wonderland.p": "P",
+      "block.alex_wonderland.rubrubikscube": "Rubrubikscube",
+      "entity.alex_wonderland.alex_phantom": "Alex Phantom",
+      "item.alex_wonderland.alex_sword": "Alex Sword",
+      "entity.alex_wonderland.lava_pet": "Lava Pet",
+      "item.alex_wonderland.tlglglgsgeyphpyarskh_6656677899999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998888888888888888888888888888888888888888888888888888889999999999999999999999999999999999999999999999999999": "Tlglglgsgeyphpyarskh 6 6 5 6 6 7 7 8 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9",
+      "painting.alex_wonderland.kddjfd.title": "Kddjfd",
+      "fluid.alex_wonderland.alex_lava": "Alex Lava",
+      "item.alex_wonderland.haujhsdljckschsiksdvc_fhdfghdusksganekjd": "Haujhsdljckschsiksdvc FHDFGHDUSKSGANEKJD",
+      "item_group.alex_wonderland.leo_and_mamastab": "Leo And Mama\u0027s tab",
+      "advancements.aaaalex.descr": "Aaaalex",
+      "painting.alex_wonderland.kddjfd.author": "Leo",
+      "item.alex_wonderland.alex_hoe": "Alex Hoe",
+      "advancements.aaaalex.title": "Aaaalex",
+      "item_group.alex_wonderland.alex_tab": "Alex Tab",
+      "painting.alex_wonderland.leos_creation.author": "Leo",
+      "block.alex_wonderland.alex_dirt": "Alex Dirt",
+      "block.alex_wonderland.alex_grass": "Alex Grass",
+      "item.alex_wonderland.lava_pet_spawn_egg": "Lava Pet Spawn Egg",
+      "item.minecraft.lingering_potion.effect.a_potion": "Lingering Potion of A",
+      "block.alex_wonderland.take_it_easy_pillow": "Take It Easy Pillow",
+      "item.alex_wonderland.alex_phantom_spawn_egg": "Alex Phantom Spawn Egg",
+      "item.alex_wonderland.alex_lava_bucket": "Alex Lava Bucket",
+      "entity.minecraft.villager.alex_wonderland.alexvillager": "Alexvillager",
+      "item.alex_wonderland.alex_axe": "Alex Axe",
+      "item.minecraft.tipped_arrow.effect.a_potion": "Arrow of A",
+      "item.alex_wonderland.alex_shovel": "Alex Shovel",
+      "painting.alex_wonderland.leos_creation.title": "Leo\u0027s Creation",
+      "item.minecraft.potion.effect.a_potion": "Potion of A",
+      "item.minecraft.splash_potion.effect.a_potion": "Splash Potion of A",
+      "block.alex_wonderland.hdhd": "Hdhd",
+      "effect.alex_wonderland.a": "A",
+      "item.alex_wonderland.cotton_candy": "Cotton Candy",
+      "block.alex_wonderland.alex_lava": "Alex Lava",
+      "item.alex_wonderland.alex_pickaxe": "Alex Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "alex_wonderland",
+    "modName": "Alex Wonderland",
+    "version": "1.0.0",
+    "author": "user, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "modElementsPackage": "net.mcreator.alexwonderland"
+  },
+  "mcreatorVersion": 202400229712
+}

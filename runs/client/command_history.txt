@@ -1,0 +1,50 @@
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/time set day
+/effect clear @e minecraft:
+/effect clear @e minecraft:luck
+/effect give @e minecraft:luck
+/effect give @e minecraft:
+/effect give @e minecraft:strength
+/effect give @e minecraft:luck
+/effect give @e minecraft:luck infinite
+/effect give @e minecraft:strength infinite
+/time set day
+/effect give @e minecraft:speed infinite
+/effect give @e minecraft:saturation infinite
+/time set day
+/effect give @e minecraft:saturation infinite
+/effect give @e minecraft:slow_falling infinite
+/effect give @e minecraft:saturation infinite
+/effect give @e minecraft:speed infinite
+/effect give @e minecraft:luck infinite
+/time set midnight
+/time set day
+/effect give @e minecraft:luck infinite
+/clone from minecraft:overworld
+/time set midnight
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/difficulty easy
+/gamemode creative
+/effect give @e minecraft:water_breathing infinite
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/leo
+/effect give @e minecraft:slow_falling infinite
+/time set day
+/leo
+/time set day
+/time set midnight
+/time set day
+/gamemode creative
+/gamemode survival
+/dad
+/Dad
+/dad

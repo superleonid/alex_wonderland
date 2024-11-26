@@ -1,0 +1,21 @@
+{
+  "_fv": 66,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of A",
+    "splashName": "Splash Potion of A",
+    "lingeringName": "Lingering Potion of A",
+    "arrowName": "Arrow of A",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:A"
+        },
+        "duration": 72000,
+        "amplifier": 10,
+        "ambient": true,
+        "showParticles": true
+      }
+    ]
+  }
+}

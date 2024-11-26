@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "alex_wonderland:take_it_easy_pillow"
+    },
+    "b": {
+      "item": "minecraft:purple_bed"
+    }
+  },
+  "result": {
+    "id": "alex_wonderland:bed",
+    "count": 64
+  }
+}

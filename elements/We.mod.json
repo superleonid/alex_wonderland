@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "We",
+    "pointOfInterest": {
+      "value": "Blocks.SAPLING#0"
+    },
+    "actionSound": {
+      "value": "ambient.soul_sand_valley.additions"
+    },
+    "hat": "None",
+    "professionTextureFile": "phantom.png",
+    "zombifiedProfessionTextureFile": "lavapet.png"
+  }
+}

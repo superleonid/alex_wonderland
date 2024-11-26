@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald_block"
+    },
+    "b": {
+      "item": "minecraft:slime_block"
+    },
+    "c": {
+      "item": "minecraft:bamboo_block"
+    },
+    "d": {
+      "item": "minecraft:oak_leaves"
+    },
+    "e": {
+      "tag": "minecraft:logs"
+    },
+    "f": {
+      "item": "minecraft:acacia_leaves"
+    },
+    "g": {
+      "item": "minecraft:jungle_leaves"
+    },
+    "h": {
+      "tag": "minecraft:leaves"
+    },
+    "i": {
+      "item": "minecraft:flowering_azalea_leaves"
+    }
+  },
+  "result": {
+    "id": "alex_wonderland:p",
+    "count": 64
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Alex Tab",
+    "icon": {
+      "value": "CUSTOM:AlexGrass"
+    },
+    "showSearch": true
+  }
+}

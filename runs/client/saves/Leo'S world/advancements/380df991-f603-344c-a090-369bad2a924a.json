@@ -1,0 +1,43 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-04-20 17:44:52 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-04-20 17:55:18 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2024-04-20 17:46:36 -0700",
+      "minecraft:jungle": "2024-04-20 17:44:53 -0700",
+      "minecraft:river": "2024-04-20 17:47:52 -0700",
+      "minecraft:savanna": "2024-04-20 17:46:47 -0700",
+      "minecraft:bamboo_jungle": "2024-04-20 17:47:53 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-04-20 17:59:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-04-20 17:59:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-04-20 17:59:41 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3700
+}

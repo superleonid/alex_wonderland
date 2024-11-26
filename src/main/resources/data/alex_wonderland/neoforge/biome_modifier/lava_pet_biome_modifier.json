@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "spawners": {
+    "type": "alex_wonderland:lava_pet",
+    "weight": 20,
+    "minCount": 259,
+    "maxCount": 259
+  }
+}

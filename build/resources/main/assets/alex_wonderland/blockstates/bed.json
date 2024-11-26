@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alex_wonderland:block/bed"
+    },
+    "facing=east": {
+      "model": "alex_wonderland:block/bed",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alex_wonderland:block/bed",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alex_wonderland:block/bed",
+      "y": 270
+    }
+  }
+}

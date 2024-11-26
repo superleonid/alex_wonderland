@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alex_wonderland:block/bed_underside",
+    "up": "alex_wonderland:block/bedtop",
+    "north": "alex_wonderland:block/bedfront",
+    "east": "alex_wonderland:block/bed",
+    "south": "alex_wonderland:block/bedfront",
+    "west": "alex_wonderland:block/bed",
+    "particle": "alex_wonderland:block/bed_underside"
+  },
+  "render_type": "cutout"
+}

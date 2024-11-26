@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "alex_wonderland:block/slydhe",
+    "particle": "alex_wonderland:block/slydhe"
+  },
+  "render_type": "cutout"
+}

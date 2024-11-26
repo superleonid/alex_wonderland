@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "alex_wonderland:blocks/hdhd",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "alex_wonderland:hdhd",
+          "functions": [
+            {
+              "count": 200,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
